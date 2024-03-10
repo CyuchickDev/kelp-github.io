@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KelpDev</title>
+</head>
+<style>
+    @font-face {
+        font-family: "CopyDuck";
+        src: url(Fonts/Copyduck.ttf);
+    }
+
+    @font-face {
+        font-family: "Anounymous";
+        src: url(Fonts/AnonymousPro-Bold.ttf);
+    }
+
+    body {
+        background-color: #236659;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        height: 100%;
+        width: 50%;
+        text-align: center;
+        margin-left: 25%;
+    }
+
+    .content {
+        width: 20%;
+        box-sizing: border-box;
+        display: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content img {
+        border-radius: 25%;
+    }
+
+    .Box {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+    }
+    .content h1 {
+        color: black;
+        font-family: "Anounymous", sans-serif;
+    }
+
+    .header h1 {
+        font-size: 100px;
+        position: inherit;
+        pointer-events: none;
+        color: black;
+        font-family: "CopyDuck", sans-serifs;
+    }
+
+    .Des {
+        font-family: "Anounymous", sans-serif;
+        color: black;
+    }
+</style>
+<body>
+    <div class="header">
+        <h1>KelpDev</h1>
+        <p class="Des">KelpDev is an independent game studio built by a vocational school student named Fauzi. KelpDev releases pre-built games to the itch.io game store platform. Initially KelpDev only made mobile games using the Max2D game engine, but now it has started expanding to other platforms with the help of the Godot Engine</p>
+    </div>
+    <div class="Box">
+        <div class="content">
+            <img src="Img/normal-ambatukam.jpg" alt="">
+            <h1>Ambatukam Game</h1>
+        </div>
+        <div class="content">
+        <img src="Img/normal-ambatukam.jpg" alt="">
+            <h1>Ambatukam Game</h1>
+        </div>
+    </div>
+</body>
+</html>
